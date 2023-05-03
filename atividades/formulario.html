@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="">
+        <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+            <label for="nome_usuario">Nome:</label><!--Label insere um rótulo-->
+            <input type="text" name="nome_ usuario" id="nome_usuario" required size="50" maxlength="100" minlength="3" placeholder="Digite seu nome">
+            <!--Input text é um campo de entrada de texto-->
+        </div>
+        <div>
+            <label for="senha">Endereço:</label>
+            <input type="password" name="senha" id="senha" required size="50" maxlength="100" minlength="2" placeholder="Digite sua senha">
+        </div>
+        <div>
+        <label for="nome_usuario">Cidade:</label><!--Label insere um rótulo-->
+            <input type="text" name="nome_ usuario" id="nome_usuario" required size="50" maxlength="100" minlength="3" placeholder="Digite seu nome">
+            <!--Input text é um campo de entrada de texto-->
+        </div>
+        <div>
+            <label for="">Estado</label>
+            <select name="opc" id="opc">
+            <option value="">São Paulo</option>
+            <option value="">Rio de janeiro</option>
+            <option value="">Minas Gerais</option>
+            <option value="">Espirito santo/option>
+        </select>
+    
+        </div>
+    </fieldset>
+    <fieldset>
+       <legend>Dados profissionais</legend>
+        <div>
+            <label for="">Natureza do cargo</label>
+            <br>
+            <input type="radio" name="tipo" id="Gerência" >
+            <label for="Gerência">Gerência</label>
+            <input type="radio" name="tipo" id="fn">
+            <label for="fn">Financeiro</label>
+            <input type="radio" name="tipo" id="rp">
+            <label for="rp">Recepção</label>
+            <input type="radio" name="tipo" id="Adm">
+            <label for="Adm">Administrativo</label>
+            <input type="radio" name="tipo" id="jr">
+            <label for="jr">Jurídico</label>
+        </div>
+        <br>
+        <div>
+            <label for="">Área de interesse</label>
+            <br>
+            <input type="checkbox" name="gr" id="gr">
+            <label for="gr">Computação</label>
+            <input type="checkbox" name="fn" id="fn">
+            <label for="fn">Biologia</label>
+            <input type="checkbox" name="rp" id="rp">
+            <label for="rp">Meio Ambiente</label>
+            <input type="checkbox" name="adm" id="Leitur">
+            <label for="Leitura">Engenharia</label>
+            <input type="checkbox" name="Leitura" id="Leitura">
+            <label for="Leitura">História</label>
+            
+        </div>
+        
+        <div>
+            <label for="recado">Mini-curriculo</label>
+            <textarea name="recado" id="recado" cols="60" rows="10" placeholder="Digite seu recado"></textarea  >
+        </div></fieldset>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset"> Limpar</button>
+            <!--Botões
+            <input type="submit" value="Enviar">
+            <input type="reset" value="apagar">-->
+        </div>
+    </form>
+</body>
+</html>
