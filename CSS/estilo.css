@@ -1,0 +1,15 @@
+div {
+    background-color: darkturquoise ; /* altera cor de fundo */
+    font-family: Cambria, Cochin, serif ;
+    /*altera o tipo de fonte */
+    font-size: 30px; /* altera o tamanho da fonte*/
+    }
+div li {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }    
+h1,h2{
+    font-size: 50px;
+}
+div, p ,strong, a { 
+font-size: 20px;
+}
