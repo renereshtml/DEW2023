@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+   <h1> video local</h1>
+    <video height="420" width="350"  
+    controls="controls"> 
+    <source src="../imgs/Kalli - Kallidade (Lyric Vídeo) (prod. Nabuscadoouro) (2).mp4" type="video/mp4"></video>
+    <div>
+        <button onclick="document.getElementById('player').play()">Play</button>
+        <button onclick="document.getElementById('player').pause()">Pause</button>
+        <button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+        <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
+      </div>
+       
+    <audio src="../imgs/Kalli - Kallidade (Lyric Vídeo) (prod. nabuscadoouro).mp3" id="player" controls="controls" type="audio/mp3"></audio>
+
+    <h1>video o youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YelWAEMDFMA" 
+    title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
