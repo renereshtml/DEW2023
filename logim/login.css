@@ -1,0 +1,17 @@
+*{margin: 0;/*deixa sem margem */
+padding: 0; /* tira adistancia do conteudo pra sua borda*/
+}
+body {
+    background-color: aquamarine; ?/*altera cor de fundo*/
+    
+}
+.fund{
+    width: 100px; /* muda alargura*/
+    margin: 0 auto; /*centraliza o fieldseth*/
+}
+h2 {
+    text-align: center; /* centraliza o texto*/
+}
+.cent {
+    text-align: center;
+}
