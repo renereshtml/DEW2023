@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  }
+.section {
+          width: 80%;
+          background-color: cadetblue;
+          border-radius: 20px;
+          margin: 20px auto;
+          padding: 20px;
+         }
+img {
+   position: absolute;
+    left: 70%;
+    top: 100px;
+}         
+    
