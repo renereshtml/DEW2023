@@ -1,0 +1,15 @@
+*{ margin: 0;
+padding: 0;}  
+ p, h1{
+ 
+    width: 700px;
+  }
+img{
+    position: absolute;
+    left: 700px;
+    width: 300px;
+    top: 10px;
+   }
+.ip{
+    font-size: 20px;
+}
