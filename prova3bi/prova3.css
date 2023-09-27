@@ -1,0 +1,61 @@
+*{
+   padding: 0;
+   margin: 0; 
+}
+header 
+{
+ display: flex;
+ width: 100%;
+ height:155px ;
+ justify-content: space-between;
+}
+.cb
+{
+height: 150px;
+width: 100%;
+border: 2px solid black;
+background-color: red;
+}
+#pai
+{
+width: 100%;
+display:flex;
+height: 500px;
+border: 2px solid black;
+
+}
+.fi
+{
+width: 25%;
+height:500px ;
+border: 2px solid black;
+background-color: green;
+}
+.fi2
+{
+    width: 50%;
+    height:500px ;
+    border: 2px solid black;
+    background-color: blue;
+}
+.f3
+{
+display: flex;
+width: 25%;
+height:500px ;
+flex-direction: column;
+}
+.nt
+{
+    width: 100%;
+    height:150px ;
+    border: 2px solid black;
+    background-color:blueviolet; 
+}
+.nt1
+{
+    width: 100%;
+    height:350px ;
+    border: 2px solid black;
+    background-color:purple; 
+}
