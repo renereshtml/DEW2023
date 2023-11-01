@@ -1,0 +1,54 @@
+*
+{
+    padding: 0;
+    border: 0;
+}
+#pai
+{
+    
+    display: grid;
+    width: 800px;
+    height: 640px;
+    grid-template-areas:
+    " logo logo logo banner banner banner banner banner"
+    " men1 men1 men1 men1 men1 men1 men1 men1          "     
+    " texto texto texto texto texto texto texto texto  "
+    " texto texto texto texto texto texto texto texto  "
+    " texto texto texto texto texto texto texto texto  "
+    " texto texto texto texto texto texto texto texto  "
+    " texto texto texto texto texto texto texto texto  "
+    " men2 men2 men2 men2 men2 men2 men2 men2          ";
+    
+    
+    
+    
+}
+#mn1
+{
+border: 2px solid black;
+grid-area: men1;
+text-align: center;
+}
+#lgo
+{
+    border: 2px solid black;
+    grid-area: logo;
+    text-align: center;
+}
+#bner
+{
+    border: 2px solid black;
+    grid-area: banner;
+    text-align: center;
+}
+#tx
+{
+    text-align: center;
+    grid-area: texto ;  
+}
+#mn2
+{
+    border: 2px solid black;
+    grid-area: men2;  
+    text-align: center;
+}

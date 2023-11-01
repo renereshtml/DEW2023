@@ -1,0 +1,78 @@
+*
+{
+    padding: 0;
+    border: 0;
+}
+#pai
+{
+    
+    display: grid;
+    width: 800px;
+    height: 640px;
+    grid-template-areas:
+    " logo banner banner banner"
+    " logo banner banner banner"
+    " lgm men2 men2 men2       "     
+    " lgm men3 men3  men3      "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    "
+    " men1 texto texto men4    ";
+   
+
+}
+#mn1
+{
+border: 2px solid black;
+grid-area: men1;
+text-align: center;
+}
+#lg
+{
+    border: 2px solid black;
+    grid-area: logo;
+    text-align: center;
+}
+#bnr
+{
+    border: 2px solid black;
+    grid-area: banner;
+    text-align: center;
+}
+#tx
+{
+    text-align: center;
+    grid-area: texto ;  
+}
+#mn2
+{
+    border: 2px solid black;
+    grid-area: men2;  
+    text-align: center;
+}
+#mn3
+{
+    border: 2px solid black;
+    grid-area: men3;  
+    text-align: center;
+}
+#mn4
+{
+    border: 2px solid black;
+    grid-area: men4;  
+    text-align: center;
+}
+#lgs
+{
+    border: 2px solid black;
+    grid-area: lgm;  
+    text-align: center;
+}
