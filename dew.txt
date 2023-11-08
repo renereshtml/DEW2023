@@ -14,7 +14,7 @@ passos do github
 ----------configurar terminal--------------
 ir no menu terminal--->new terminal digitar os comandos 
  git config --global user.email "meu email do git"
-git config --global user.name "seu name do git"
+git config --global user.name "meu nome do git"
 fechar terminal
 
 ------------------------------------------------------------------
