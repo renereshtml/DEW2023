@@ -14,13 +14,13 @@ body{
   background: radial-gradient(circle, rgba(223,223,223,1) 1%, rgba(166,151,155,1) 84%);
   
     display: flex;
-    display: grid;
+    /* display: grid; */
     height: 60px;
-    width: 1600px;
-   justify-content: space-around;
-   align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
-    grid-template-areas:"er tss rds" ;
+     /* grid-template-areas:"er tss rds" ;  */
 
 }
 #rd 
@@ -79,10 +79,10 @@ a {
 #rdp{
   bottom: 0px;
   position: fixed;
-  height: 30px;
+  height: 10px;
   width: 100%;
-  background: rgb(223,223,223);
-  background: radial-gradient(circle, rgba(223,223,223,1) 1%, rgba(166,151,155,1) 84%);
+  background: rgb(223,223,223);background: radial-gradient(circle, rgba(223,223,223,1) 1%, rgba(166,151,155,1) 84%);
+  
 
 }
 
@@ -92,5 +92,75 @@ a {
   align-self: center;
 }
 
+#taylor{
+  display: flex;
+  align-items: center;
+}
+
+#txt1989
+{
+  
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+ 
+}
+#tx1
+{
+  grid-area: tx11;
+  font-size: larger;
+}
+#tx2
+{
+ grid-area: tx22;
+ font-size: larger;
+}
+#tx3
+{
+ grid-area: tx33;
+ font-size: larger;
+}
+
+#music
+{
+  font-size: 80px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+
+#bio
+{
+  
+  width: 62%;
+  font-size: large;
+}
+#pai
+{
+ 
+ 
+}
+#sp
+{
+  right: 4px;
+  
+}
+#ty
+{
+  
+  
+  font-size: large;
+  width: 99%;
+  height: 400px;
+  border: solid 1px black;
+}
+#paii
+{
+  display: flex;
+  align-items: center;
+}
 
 
