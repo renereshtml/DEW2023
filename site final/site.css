@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
   background: rgb(223,223,223);
@@ -58,7 +59,7 @@ display: flex;
 align-items: center;
 font-size: 30px;
 }
-#BUY
+#buy
 {
   font-size: 80px;
   background-color: black;
@@ -66,11 +67,12 @@ font-size: 30px;
   display: flex;
   justify-content: space-around;
   margin-top: 0px;
+  
 }
-a {
-  text-decoration: none;
-  color: white;
-}
+
+.buyy
+{text-decoration: none;
+  color: white;}
 
 .tx {
   text-decoration: none;
@@ -95,16 +97,22 @@ a {
 #taylor{
   display: flex;
   align-items: center;
+
 }
 
-#txt1989
+#txt1989 
 {
-  
   display: flex;
   width: 100%;
   height: 50px;
   justify-content: space-around;
- 
+  
+  
+}
+.tx19
+{
+  text-decoration: none;
+  color: black;
 }
 #tx1
 {
@@ -141,7 +149,26 @@ a {
 #pai
 {
  
- 
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+
+.pai_imagem {
+  width: 40%;
+}
+
+.pai_texto {
+  width: 60%;
+  height: 310px;
+  overflow:auto; 
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+.imagem {
+  width: 100%;;
 }
 #sp
 {
